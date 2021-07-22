@@ -1,3 +1,9 @@
+"""Script used for fine mapping of Rrs18 by REML. Results of analyses found in Coulter et al. 2019 (https://link.springer.com/article/10.1007/s00122-018-3262-8)
+Author: Max Coulter"""
+
+
+
+
 test<-read.csv("Association of all L73a data.csv",header=TRUE)
 test<-read.csv("L73a for REML.csv",header=TRUE)
 #test<-read.csv("L73a for REMLno7_06.csv",header=TRUE)
