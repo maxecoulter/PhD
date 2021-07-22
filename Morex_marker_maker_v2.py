@@ -10,10 +10,9 @@
 
 #To run on linux:
 #Usage:
-#qrsh (do not use gruffalo)
-#/mnt/apps/python/3.5/bin/python3.5 morex_marker_makerv2.py <inputfilename>
+#python morex_marker_makerv2.py <inputfilename>
 
-#VCF column order (tab delimited): Chromosome,physical position,reference allele, snp allele. Gene reference must be in column 8
+#Input file: VCF column order (tab delimited): Chromosome,physical position,reference allele, snp allele. Gene reference must be in column 8
 filt=2 #Filtering stingency (bases)
 
 
@@ -145,7 +144,7 @@ def primer3_output(output_stream, markerID, template, right_or_force):
 ##########################################################################################################################################################
 #Upload morex chromosomes
 
-os.chdir('/mnt/shared/scratch/mc42302/')
+
 
 
 #Open genome file
