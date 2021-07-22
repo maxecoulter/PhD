@@ -1,3 +1,7 @@
+"""Program for creating kasp primers from vcf.
+Authors Max Coulter, Dr Matthew Moscou"""
+
+
 #For creating KASP markers from a .vcf file, with Morex barley pseudomolecules reference genome (Mascher 2017). Primers are then tested for specificity using BLASTn.
 #Program written for use on the linux cluster at the James Hutton Institute.
 # In my project, the reference allele was from cv. Morex, while the snp allele was from cv. Steptoe.
